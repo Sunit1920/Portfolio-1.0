@@ -10,13 +10,16 @@ $(document).ready(function() {
     });
 
 
-    //toggle menu navbar script
+    
+    //toggle menu navbar script----------------------------------------------------------------
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-
-    //owl carousel script
+    //Toggle Menu Over-------------------------------------------------------------------------
+    
+    
+    //owl carousel script----------------------------------------------------------------------
     /*
     $('.carousel').owlCarousel({
         margin: 20,
